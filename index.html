@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.5/JsBarcode.all.min.js"></script>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="BarCode">
+            <div class="input">
+                <div class="title"><h3>توليد باركود</h3></div>
+                <input type="text" id="textToGenerate" placeholder="أدخل النص هنا">
+                <button id="generateButton">توليد </button>
+            </div>
+            <div class="barcodres">
+                <svg id="barcodeContainer"></svg>
+
+            </div>
+        </div>
+        <div class="Qcart">
+            <div class="wrapper">
+                <header>
+                    <h1>QR Code توليد</h1>
+                </header>
+                <div class="form">
+                    <input type="text" spellcheck="false"  placeholder="أدخل النص هنا">
+                    <button> توليد</button>
+
+                </div>
+                <div class="qr-code">
+                    <img src="" alt="qr-code">
+                </div>
+            </div>
+
+            <script src="script.js"></script>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
