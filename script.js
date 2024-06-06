@@ -1,5 +1,5 @@
 const wrapper = document.querySelector(".wrapper"),
-qrInput = wrapper.querySelector(".form input"),
+qrInput = wrapper.querySelector(".form textarea"),
 generateBtn = wrapper.querySelector(".form button"),
 qrImg = wrapper.querySelector(".qr-code img");
 let preValue;
