@@ -30,10 +30,10 @@ body {
   transition: height 0.2s ease;
 }
 
-.wrapper.active {
-  height: 530px;
-}
 
+.wrapper.active {
+    height: 700px;
+}
 header h1 {
   font-size: 21px;
   font-weight: 500;
@@ -129,5 +129,5 @@ textarea {
   height: 142px;
   text-align: end;
   padding: 6px;
-  margin: 10px;
+  margin: 10px auto;
 }

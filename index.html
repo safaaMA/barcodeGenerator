@@ -17,9 +17,13 @@
 
         <div class="BarCode">
             <div class="input">
-                <div class="title"><h3>توليد باركود</h3></div>
+                <div class="title">
+                    <h3>توليد باركود</h3>
+                </div>
                 <textarea id="textToGenerate" placeholder="أدخل النص هنا"></textarea>
                 <button id="generateButton">توليد </button>
+                <button id="downloadButton" style="display: none;">تنزيل باركود</button>
+
             </div>
             <div class="barcodres">
                 <svg id="barcodeContainer"></svg>
@@ -34,6 +38,8 @@
                 <div class="form">
                     <textarea spellcheck="false" placeholder="أدخل النص هنا"></textarea>
                     <button> توليد</button>
+                    <button id="downloadBtn" style="display: none;">تنزيل QR</button>
+
 
                 </div>
                 <div class="qr-code">

@@ -53,3 +53,21 @@ textarea#textToGenerate {
     padding: 6px;
     margin: 10px;
 }
+button#downloadButton {
+    margin: 13px;
+    background: chartreuse;
+    border: none;
+    padding: 5px 72px;
+    font-size: 15px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+button#downloadBtn {
+    margin: 12px 0;
+    background: chartreuse;
+    border: none;
+    padding: 5px 72px;
+    font-size: 15px;
+    border-radius: 14px;
+    cursor: pointer;
+}
